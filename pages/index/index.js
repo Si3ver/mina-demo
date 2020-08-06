@@ -1,5 +1,5 @@
 const app = getApp();
-console.log("app", app);
+console.log("👉:  app", app);
 
 Component({
   data: {
@@ -53,14 +53,12 @@ Component({
     },
     jumpTo: function (e) {
       const { currentTarget } = e;
-      const { url = "", query = {} } = currentTarget.dataset || {};
-      console.log("url", url);
-      console.log("query", query);
+      const { url = "" } = currentTarget.dataset || {};
       if (!url) {
         return;
       }
       wx.navigateTo({
-        url: "../test/test",
+        url,
       });
     },
   },

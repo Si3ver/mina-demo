@@ -6,6 +6,22 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "/assets/images/tabbar/about.png",
+        "selectedIconPath": "/assets/images/tabbar/about-select.png"
+      },
+      {
+        "text": "组件",
+        "pagePath": "pages/test/test",
+        "iconPath": "/assets/images/tabbar/base.png",
+        "selectedIconPath": "/assets/images/tabbar/base-select.png"
+      }
+    ]
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

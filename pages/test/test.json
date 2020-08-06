@@ -1,4 +1,8 @@
 {
-  "component": true,
-  "usingComponents": {}
+  "navigationBarTitleText": "组件测试页",
+  "usingComponents": {
+    "l-loading": "/miniprogram_npm/lin-ui/loading/index",
+    "l-icon": "/miniprogram_npm/lin-ui/icon/index",
+    "l-button": "/miniprogram_npm/lin-ui/button/index"
+  }
 }

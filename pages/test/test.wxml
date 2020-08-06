@@ -1,2 +1,4 @@
-<!--pages/test/test.wxml-->
-<text>pages/test/test.wxml</text>
+<!-- pages/test/test.wxml -->
+<l-icon name="add"></l-icon>
+<l-button></l-button>
+<l-loading />

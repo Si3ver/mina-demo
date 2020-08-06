@@ -12,5 +12,5 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
-  <button bindtap="jumpTo" data-url="log">组件测试页</button>
+  <button bindtap="jumpTo" data-url="../test/test" data-query="a=1">组件测试页</button>
 </view>
