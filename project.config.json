@@ -34,7 +34,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.12.0",
 	"appid": "wxcbdde696be506d59",
-	"projectname": "miniprogram-1",
+	"projectname": "mina-demo",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

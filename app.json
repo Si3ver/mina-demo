@@ -1,5 +1,8 @@
 {
-  "pages": ["pages/index/index", "pages/logs/logs", "pages/test/test"],
+  "pages": [
+    "pages/classic/classic",
+    "pages/test/test"
+  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -9,8 +12,8 @@
   "tabBar": {
     "list": [
       {
-        "text": "首页",
-        "pagePath": "pages/index/index",
+        "text": "流行",
+        "pagePath": "pages/classic/classic",
         "iconPath": "/assets/images/tabbar/about.png",
         "selectedIconPath": "/assets/images/tabbar/about-select.png"
       },

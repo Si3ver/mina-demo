@@ -22,7 +22,7 @@ Component({
       });
       setTimeout(() => {
         wx.lin.hideLoading();
-      }, 2000);
+      }, 500);
     },
   },
 });
