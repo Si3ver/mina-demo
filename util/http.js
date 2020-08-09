@@ -6,7 +6,7 @@ const tips = {
   1005: 'appkey无效，请前往www.7yue.pro申请',
   3000: '期刊不存在'
 }
-class Http {
+class HTTP {
   constructor () {
     this.rid = 0
   }
@@ -50,5 +50,5 @@ class Http {
 }
 
 export {
-  Http
+  HTTP
 }
