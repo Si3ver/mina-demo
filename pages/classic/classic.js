@@ -22,7 +22,7 @@ Component({
     onLike: function(e) {
       console.log(e)
       const { behavior } = e.detail || {}
-      likeModel.like(behavior, this.data.classicData.id, 100)
+      likeModel.like(behavior, this.data.classicData.id, this.data.classicData.type)
     }
   }
 })
