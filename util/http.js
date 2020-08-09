@@ -26,7 +26,7 @@ class HTTP {
         const code = res.statusCode.toString()
         if (code.startsWith('2')) {
           logger.logResponse({cgi: {method, desc, url}, params: data, data: res.data, rid})
-          params.success(res.data)
+          params.success && params.success(res.data)
         } else {
           logger.logErrorResponse({cgi: {method, desc, url}, params: data, data: res.data, rid})
           const { error_code = 1 } = res.data
