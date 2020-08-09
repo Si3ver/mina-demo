@@ -1,1 +1,3 @@
-*.rest filter=gitignore
+*.rest filter=appkey
+*.http filter=appkey
+*.js filter=appkey

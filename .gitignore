@@ -4,3 +4,4 @@ miniprogram_npm
 .vscode
 dist
 config.js
+api-debug
