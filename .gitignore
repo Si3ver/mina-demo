@@ -3,5 +3,5 @@ miniprogram_npm
 .DS_store
 .vscode
 dist
-config.js
-api-debug
+# config.js
+# api-debug
