@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "lin-ui": "^0.8.7",
-    "miniprogram-api-promise": "^1.0.4"
+    "lodash": "^4.17.19",
+    "miniprogram-api-promise": "^1.0.4",
+    "moment": "^2.27.0"
   }
 }
