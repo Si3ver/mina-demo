@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "v-carousel": "/components/carousel/carousel"
+  }
+}

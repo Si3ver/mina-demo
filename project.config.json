@@ -72,6 +72,13 @@
 					"pathName": "pages/test/test",
 					"query": "",
 					"scene": 1000
+				},
+				{
+					"id": 1,
+					"name": "我的",
+					"pathName": "pages/my/my",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

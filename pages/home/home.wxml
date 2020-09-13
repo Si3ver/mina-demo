@@ -1,0 +1,9 @@
+<v-carousel
+  bannerArea="{{bannerArea1}}"
+  swiperOptions="{{swiperOptions1}}"
+/>
+
+<v-carousel
+  bannerArea="{{bannerArea2}}"
+  swiperOptions="{{swiperOptions2}}"
+/>

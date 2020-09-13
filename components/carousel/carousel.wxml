@@ -1,0 +1,35 @@
+<swiper
+  class='swiperClass'
+  autoplay="{{swiperOptions.autoplay}}"
+  interval="{{swiperOptions.interval}}"
+  duration="{{swiperOptions.duration}}"
+  indicator-dots="{{bannerArea.length > 1}}"
+  circular
+  indicator-color="#DEDEDE"
+  indicator-active-color="#777777"
+  previous-margin="30rpx"
+  next-margin="30rpx"
+  bindchange="bindChange"
+  style='height: {{bannerArea.length === 1 ? swiperOptions.bannerHeight : swiperOptions.bannerHeight * 1.0 / 0.8}}rpx;'
+>
+  <block wx:for="{{bannerArea}}" wx:key="index">
+    <swiper-item>
+      <navigator
+        open-type="{{item.navigator.openType}}"
+        target="{{item.navigator.target}}"
+        app-id="{{item.navigator.appId}}"
+        url="{{item.navigator.url}}"
+        path="{{item.navigator.path}}"
+        version="{{item.navigator.version}}"
+        extra-data="{{item.navigator.extraData}}"
+        hover-class="none"
+        class="slide-navigator {{swiperIndex === index ? 'active' : 'quiet'}} {{bannerArea.length === 1 ? 'one-img' : ''}}"
+      >
+        <image
+          class="slide-image"
+          src="{{item.imgUrl}}"
+        />
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>
